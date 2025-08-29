@@ -2,10 +2,6 @@
 
 A production-ready Telegram notification bot for Superteam Earn that provides users with personalized alerts for new bounties and projects.
 
-## 🎬 Demo Video
-
-[Demo Video Link]
-https://drive.google.com/file/d/1aby7loc_Aeqjv6a5HPCrk2Y8rN4BMe1z/view?usp=drive_link
 
 ## 🚀 Features
 
@@ -37,9 +33,10 @@ https://drive.google.com/file/d/1aby7loc_Aeqjv6a5HPCrk2Y8rN4BMe1z/view?usp=drive
 
 ### Installation
 ```bash
-git clone https://github.com/comradeflats/superteam-telegram-bot.git
-cd superteam-telegram-bot
+git clone https://github.com/taiwokassim/superteam_telegram_bot.git
+cd superteam_telegram_bot
 pnpm install
 cp .env.example .env
 pnpm prisma generate
 pnpm prisma db push
+
