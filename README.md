@@ -1,7 +1,7 @@
 # Superteam Earn Telegram Bot
 
-A production-ready Telegram notification bot for Superteam Earn that provides users with personalized alerts for new bounties and projects.
 
+A production-ready Telegram bot that keeps Superteam Earn users updated with personalized alerts whenever new bounties or projects are published.
 
 ## 🚀 Features
 
@@ -23,7 +23,6 @@ A production-ready Telegram notification bot for Superteam Earn that provides us
 ✅ **TypeScript + Node.js**: Built with required tech stack  
 ✅ **Production Deployment**: Live on Railway with health monitoring  
 
-## 🛠️ Development Setup
 
 ### Prerequisites
 - Node.js 18+
