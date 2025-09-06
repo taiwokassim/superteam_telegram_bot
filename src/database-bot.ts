@@ -4,8 +4,16 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+// Initialize Prisma with the Railway DATABASE_URL
+const prisma = new PrismaClient({
+  datasources: {
+    db: {
+      url: process.env.DATABASE_URL, // <- This is the key change
+    },
+  },
+});
+
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN!);
-const prisma = new PrismaClient();
 
 bot.start(async (ctx) => {
   try {
