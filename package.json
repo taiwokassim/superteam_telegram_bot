@@ -9,6 +9,7 @@
   "build": "prisma generate",
   "start": "prisma generate && tsx src/server.ts",
   "postinstall": "prisma generate && prisma migrate deploy",
+  "migrate": "prisma migrate deploy",
   "lint": "tsc --noEmit"
 },
   "keywords": [
