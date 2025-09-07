@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Telegram notification bot for Superteam Earn",
   "main": "src/server.ts",
+  
   "scripts": {
-    "dev": "tsx watch src/bot/index.ts",
-    "build": "prisma generate",
-    "start": "prisma generate && tsx src/server.ts",
-    "postinstall": "prisma generate",
-    "lint": "tsc --noEmit"
-  },
+  "dev": "tsx watch src/bot/index.ts",
+  "build": "prisma generate",
+  "start": "prisma generate && tsx src/server.ts",
+  "postinstall": "prisma generate && prisma migrate deploy",
+  "lint": "tsc --noEmit"
+},
   "keywords": [
     "telegram",
     "bot",
